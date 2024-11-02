@@ -49,7 +49,7 @@ function showContent(page) {
       if (page === 'video') {
           document.getElementById('1').classList.add('selected');
           applyStyles();
-          content.innerHTML = `<iframe frameborder="0" allowfullscreen="" scrolling="no" allow="autoplay;fullscreen" src="https://streamable.com/e/oxemgi?" style="width: 100%; aspect-ratio: 1920 / 1080; box-shadow: rgb(51, 51, 51) 10px 10px 35px -10px;"></iframe>`;
+          content.innerHTML = `<iframe frameborder="0" allowfullscreen="" scrolling="no" allow="autoplay;fullscreen" src="https://streamable.com/e/iuoqde?" style="width: 100%; aspect-ratio: 1920 / 1080; box-shadow: rgb(51, 51, 51) 10px 10px 35px -10px;"></iframe>`;
       } else if (page === 'mammoth') {
           document.getElementById('2').classList.add('selected');
           clearStyles();
